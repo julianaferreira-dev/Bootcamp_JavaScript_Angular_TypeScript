@@ -1,0 +1,28 @@
+.container__content{
+  width: 100%;
+  height: 100vh;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content__cover > img{
+  border:5px solid #f4b9cd;
+  border-radius: 50px;
+  width: 500px;
+  min-width: 500px;
+  height: 100%;
+}
+
+.content__description{
+  margin-top: 15px;
+  text-align: center;
+}
+
+.content__description > p{
+  margin-top: 20px;
+  color: #f4b9cd;
+  text-align: center;
+  margin-bottom: 25px;
+}
