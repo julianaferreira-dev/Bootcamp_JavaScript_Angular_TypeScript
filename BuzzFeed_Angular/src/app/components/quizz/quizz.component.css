@@ -1,0 +1,95 @@
+.quizz__container{
+  width: 50%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.quizz_logo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.quizz_logo > h3{
+  margin-top: 80px;
+  font-size: 40px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  text-shadow: 0px 1px 0px #000;
+}
+
+.quizz_questions{
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:1px solid #fedb0e;
+  border-radius: 8px;
+  background-color: #fedb0e;
+  width: 100%;
+  height: 200px;
+  font-size: 25px;
+  font-family: ystem-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+  text-shadow: 0px 1px 0px #000;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.quizz_options{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.btn-option{
+  background-color: #41a6de;
+  border-radius: 8px;
+  border: 1px solid #2580b1;
+  width: 50%;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2580b1;
+}
+
+.btn-option:hover{
+  background-color: #2580b1;
+}
+
+.btn-option:active{
+  position: relative;
+  top: 1px;
+}
+
+.quizz_results{
+  width: 100%;
+  height: 350px;
+  background-color: #41a6de;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-shadow: 0px 1px 0px #000;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.quizz_results > h1 {
+  margin-bottom: 50px;
+  font-size: 40px;
+}
+
+.quizz_results > p {
+  font-size: 20px;
+}
